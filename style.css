@@ -39,6 +39,7 @@ li {
         display: inline;
         padding: 0px 10px 0px 10px;
         
+        
       }
 li a {
     text-decoration: none;
@@ -49,6 +50,10 @@ div {
   display: flex;
   justify-content: center;
 
+}
+
+h1 {
+  padding: 5px;
 }
     
     
