@@ -1,0 +1,47 @@
+body {
+      text-align: center;
+      background: url("https://i.imgur.com/RPMPQHB.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+p {
+      font-size: 22px;
+    }
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+input[type="submit"] {
+      background: red;
+      color: white;
+    }
+
+img {
+        margin: 20px 0px 0px 0px;
+        border: 7px solid white;
+        border-radius: 20px;
+        max-width: 90px
+    }
+
+ul {
+        color: white;
+        padding: 10px;
+        background: rgba(0,0,0,0.5);
+      }
+
+li {
+        color: white;
+        display: inline;
+        padding: 0px 10px 0px 10px;
+        
+      }
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+    
+    
+    
