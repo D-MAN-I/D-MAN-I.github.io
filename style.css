@@ -4,16 +4,21 @@ body {
       background-size: cover;
       background-position: center;
       color: white;
-      font-family: helvetica;
+      font-family: helvetica, sans-serif;
       background-repeat: no-repeat;
+      margin: 0 auto;
       height: 100vh;
-      width: 100vw;
+      max-width: 100vw;
+      
     }
-p {
+
+    
+span {
       font-size: 18px;
       background: rgba(0,0,0,0.5);
       padding: 10px;
     }
+
 input {
       border: 0;
       padding: 10px;
@@ -66,4 +71,30 @@ footer {
   justify-content: center;
   background: rgba(0,0,0,0.5);
 }    
-    
+
+.component-center a, p {
+  color: white;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  height: 80px;
+  /* width: 600px; */
+  /* background-size: 100% auto; */
+  /* position: relative; */
+  margin: 15 auto;
+  
+  
+  /* margin: 40px 0 0 0; */
+}
+
+a:hover {
+  color: goldenrod;
+} 
+  
+p {
+  font-size: 18px;
+  background: rgba(0,0,0,0.5);
+  padding: 0 50px 0 50px;
+}
